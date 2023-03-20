@@ -54,7 +54,7 @@ const SingleJob = ({ job }) => {
         </div>
       </div>
       <div className="mt-5 flex lg:mt-0 lg:ml-4">
-        <Link to="/jobs/edit/:jobId">
+        <Link to={`/jobs/edit/${id}`}>
           <span className="hidden sm:block">
             <button
               onClick={handleEdit}
